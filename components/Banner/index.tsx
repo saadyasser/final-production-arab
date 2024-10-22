@@ -13,7 +13,6 @@ const Banner = ({ title, startAt, endAt }: BannerProps) => {
   const endDate = new Date(endAt);
 
   const isVisible = currentDate >= startDate && currentDate <= endDate;
-  console.log(isVisible);
 
   return isVisible && <div className="banner">{title}</div>;
 };

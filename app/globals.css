@@ -19,7 +19,6 @@ body {
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: "Tajawal";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -31,11 +30,12 @@ body {
 }
 
 .banner {
+
   font-size: 23px;
   font-weight: 700;
   padding: 32px;
   color: white;
-  background-color: #713784;
+  background-color: #462576;
   text-align: center;
 }
 
