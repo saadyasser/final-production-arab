@@ -1,4 +1,3 @@
-import { log } from "console";
 import React from "react";
 interface BannerProps {
   title: string;
