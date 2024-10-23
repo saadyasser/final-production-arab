@@ -1,13 +1,6 @@
 import type { Metadata } from "next";
-import { Tajawal } from "next/font/google";
 
 import "./globals.css";
-
-const tajawal = Tajawal({
-  subsets: ["arabic", "latin"],
-  display: "swap",
-  weight: "700",
-});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -21,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${tajawal.className}`}>{children}</body>
+      <body>{children}</body>
     </html>
   );
 }
