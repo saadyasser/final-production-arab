@@ -1,3 +1,6 @@
+
+![pixel-plus logo](https://github.com/user-attachments/assets/7405a76a-8ac6-481f-8ac3-1a7843fd6c62)
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
