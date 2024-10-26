@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React from "react";
 interface BannerProps {
   title: string;
@@ -18,5 +17,3 @@ const Banner = ({ title, startAt, endAt }: BannerProps) => {
 };
 
 export default Banner;
-=======
->>>>>>> master
