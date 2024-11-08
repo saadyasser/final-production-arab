@@ -1,0 +1,80 @@
+.interactive-section {
+    background: url(/images/interactive-tools-bg.jpeg);
+    background-size: cover;
+    padding: 16px 45px;
+}
+
+h2  {
+    font-size: 16px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 40px;
+    color: #713488;
+}
+
+.card {
+    border-radius: 5px;
+    background-color: white;
+    padding-inline: 15px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    opacity: .83;
+}
+
+.card-description {
+    font-size: 14px; /* Ensure units are correct */
+    line-height: 20px;
+    font-weight: 500;
+    text-align: center;
+    color: #713488;
+}
+
+/* Tablet styles: 768px to 1024px */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .interactive-section {
+      padding: 50px 150px;
+    }
+
+    h2 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    .card {
+        padding-inline: 40px;
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+
+    .card-description {
+        font-size: 16px;
+    }
+}
+
+/* Desktop styles: 1025px and above */
+@media (min-width: 1025px) {
+    .interactive-section {
+        display: flex;
+        padding-block: 120px;
+        padding-left: 148px;
+    }
+
+    .interactive-section .card {
+        flex-basis: 50%;
+        flex-shrink: 0;
+        border-radius: 10px;
+        padding: 70px 60px;
+    }
+
+    h2 {
+        font-size: 27px;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+
+    .card-description {
+        font-size: 19px;
+        line-height: 40px;
+        font-weight: 700;
+    }
+}
