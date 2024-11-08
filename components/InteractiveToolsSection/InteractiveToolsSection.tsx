@@ -1,10 +1,11 @@
 import React from "react";
 import "./InteractiveToolsSection.css";
+import Card from "../Card/Card";
 
 const InteractiveToolsSection = () => {
   return (
     <section className="interactive-section">
-      <div className="card">
+      <Card>
         <h2>أدوات تفاعلية والعاب تعليمية</h2>
         <p className="card-description">
           تتميز الأكاديمية العربية للبرمجة بتطوير أدوات تفاعلية وألعاب تعليمية
@@ -15,7 +16,7 @@ const InteractiveToolsSection = () => {
           فريق العمل أو تقديم تجربة تعليمية فريدة لعملائك، الأكاديمية العربية
           للبرمجة هي شريكك المثالي لتحقيق هذه الأهداف بنجاح.
         </p>
-      </div>
+      </Card>
     </section>
   );
 };
