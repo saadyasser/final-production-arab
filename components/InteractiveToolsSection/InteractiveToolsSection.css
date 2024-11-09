@@ -49,9 +49,9 @@ h2  {
     .card-description {
         font-size: 16px;
     }
-    .btn-wrapper  {
+    /* .btn-wrapper  {
         margin-top: 39px;
-    }
+    } */
 }
 
 /* Desktop styles: 1025px and above */
@@ -79,7 +79,17 @@ h2  {
         font-weight: 700;
     }
 
-    .btn-wrapper  {
+    /* .btn-wrapper  {
         margin-top: 44px;
     }
+     .button {
+        display: flex;
+        align-items: center;
+        background-color: #00BE98;
+        color: white;
+        border-radius: 10px;
+        font-size: 18px;
+        line-height: 34px;
+        gap: 10px;
+     } */
 }
