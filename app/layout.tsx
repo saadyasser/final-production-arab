@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Provider } from "@/components/ui/provider"; 
+import { Provider } from "@/components/ui/provider";
 import { ReactNode } from "react";
 
 import "./globals.css";
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 
 export default function Layout({ children }: { children: ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="ar" dir="rtl">
       <body>
         <Provider>{children}</Provider>
       </body>

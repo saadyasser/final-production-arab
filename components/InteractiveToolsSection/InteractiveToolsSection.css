@@ -53,6 +53,7 @@ h2  {
 @media (min-width: 1025px) {
     .interactive-section {
         display: flex;
+        justify-content: flex-end;
         padding: 153px 0 112px 148px;
     }
 
