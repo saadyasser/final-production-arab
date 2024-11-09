@@ -1,6 +1,7 @@
 import React from "react";
 import "./InteractiveToolsSection.css";
 import Card from "../Card/Card";
+import { Button } from "../ui/button";
 
 const InteractiveToolsSection = () => {
   return (
@@ -16,6 +17,9 @@ const InteractiveToolsSection = () => {
           فريق العمل أو تقديم تجربة تعليمية فريدة لعملائك، الأكاديمية العربية
           للبرمجة هي شريكك المثالي لتحقيق هذه الأهداف بنجاح.
         </p>
+        <Button colorPalette="#00BE98" variant="solid" size="lg">
+          Call us
+        </Button>
       </Card>
     </section>
   );

@@ -24,6 +24,10 @@ h2  {
     color: #713488;
 }
 
+.interactive-section button {
+    margin: 0 auto;
+}
+
 /* Tablet styles: 768px to 1024px */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .interactive-section {
