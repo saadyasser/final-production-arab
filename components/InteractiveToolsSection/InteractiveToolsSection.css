@@ -24,8 +24,10 @@ h2  {
     color: #713488;
 }
 
-.interactive-section button {
-    margin: 0 auto;
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 9px;
 }
 
 /* Tablet styles: 768px to 1024px */
@@ -36,7 +38,7 @@ h2  {
 
     h2 {
         font-size: 30px;
-        margin-bottom: 15px;
+        margin-bottom: 40px;
     }
 
     .interactive-section .card {
@@ -47,6 +49,9 @@ h2  {
     .card-description {
         font-size: 16px;
     }
+    .btn-wrapper  {
+        margin-top: 39px;
+    }
 }
 
 /* Desktop styles: 1025px and above */
@@ -54,7 +59,7 @@ h2  {
     .interactive-section {
         display: flex;
         justify-content: flex-end;
-        padding: 153px 0 112px 148px;
+        padding: 153px 0 112px 149px;
     }
 
     .interactive-section .card {
@@ -65,12 +70,16 @@ h2  {
     h2 {
         font-size: 27px;
         line-height: 40px;
-        margin-bottom: 20px;
+        margin-bottom: 34px;
     }
 
     .card-description {
         font-size: 19px;
         line-height: 40px;
         font-weight: 700;
+    }
+
+    .btn-wrapper  {
+        margin-top: 44px;
     }
 }

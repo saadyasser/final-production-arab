@@ -18,10 +18,24 @@ const InteractiveToolsSection = () => {
           فريق العمل أو تقديم تجربة تعليمية فريدة لعملائك، الأكاديمية العربية
           للبرمجة هي شريكك المثالي لتحقيق هذه الأهداف بنجاح.
         </p>
-        <Button variant="solid" size="lg">
-          <PhoneIcon />
-          Call us
-        </Button>
+        <div className="btn-wrapper">
+          <Button
+            style={{
+              backgroundColor: "#00BE98",
+              color: "white",
+              borderRadius: "10px",
+              fontSize: "18px",
+              lineHeight: "34px",
+              fontWeight: "semibold",
+              padding: "19px 48px",
+              gap: "10px",
+            }}
+            variant="solid"
+          >
+            <PhoneIcon />
+            Call us
+          </Button>
+        </div>
       </Card>
     </section>
   );
